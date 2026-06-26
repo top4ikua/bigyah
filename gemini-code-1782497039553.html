@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        /* Importing a clean, modern font similar to the reference image */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Dark gradient background to match the purple/blue night vibe */
+            background: linear-gradient(135deg, rgba(29, 13, 51, 1) 0%, rgba(13, 17, 28, 1) 100%);
+            font-family: 'Inter', sans-serif;
+            color: #ffffff;
+        }
+
+        .container {
+            /* Dark grey/blue panel matching the login box UI */
+            background-color: #1a1c29;
+            border: 1px solid #2d2f42;
+            border-radius: 16px;
+            padding: 40px;
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            margin-top: 0;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #a1a1aa;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        /* Vibrant purple primary button */
+        .btn-primary {
+            background: linear-gradient(90deg, #7c3aed 0%, #6366f1 100%);
+            color: #ffffff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        /* Subtle secondary button for the alternate route */
+        .btn-secondary {
+            background-color: transparent;
+            color: #a1a1aa;
+            border: 1px solid #2d2f42;
+        }
+
+        .btn-secondary:hover {
+            background-color: #252836;
+            color: #ffffff;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #52525b;
+            font-size: 12px;
+            font-weight: 600;
+            margin: 24px 0;
+            text-transform: uppercase;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #2d2f42;
+        }
+
+        .divider:not(:empty)::before {
+            margin-right: .5em;
+        }
+
+        .divider:not(:empty)::after {
+            margin-left: .5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Are you looking for TurboX?</h1>
+        <p>If so, then we have moved to a new site!</p>
+        
+        <a href="https://turbox.space" class="btn btn-primary">Go to TurboX</a>
+        
+        <div class="divider">or</div>
+        
+        <p style="margin-bottom: 16px; font-size: 13px;">If not, click the link below.</p>
+        
+        <a href="https://www.mossad.gov.il/en/contact-us" class="btn btn-secondary">Click here</a>
+    </div>
+</body>
+</html>
